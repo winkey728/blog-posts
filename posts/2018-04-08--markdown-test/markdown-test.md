@@ -94,6 +94,14 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
+### line highlighting:
+
+```javascript{2}
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
 <br>
 
 ## Math Blocks
