@@ -1,5 +1,5 @@
 ---
-title: "Markdo测试页面"
+title: "Markdown测试页面"
 date: "2018-04-08"
 cover: "https://picsum.photos/600/400?random"
 category: "测试"
