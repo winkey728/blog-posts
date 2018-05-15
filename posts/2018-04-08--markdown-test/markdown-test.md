@@ -1,6 +1,6 @@
 ---
 title: "Markdown测试页面"
-date: "2018-04-08"
+date: "2018-04-08T00:00:00Z"
 cover: "https://picsum.photos/600/400?random"
 category: "测试"
 tags: ["测试", "markdown"]
