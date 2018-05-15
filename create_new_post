@@ -81,7 +81,8 @@ ask "Tags (split by commas): "
 tags="$(get_answer)"
 tags=(${tags//,/ })
 
-current_date=`date +%Y-%m-%d`
+current_date=`date -u +"%F"`
+current_datetime=`date -u +"%FT%TZ"`
 
 # Create post directory and file
 
@@ -104,7 +105,7 @@ function join_by {
 printf "%s" \
 "---
 title: \"${title}\"
-date: \"${current_date}\"
+date: \"${current_datetime}\"
 cover: \"${cover}\"
 category: \"${category}\"
 tags: [\"$(join_by '", "' ${tags[@]})\"]
